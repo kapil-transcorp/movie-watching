@@ -8,14 +8,8 @@ const nextConfig = {
         hostname: 'image.tmdb.org',
         pathname: '/t/p/**',
       },
-      {
-        protocol: 'https',
-        hostname: 'img.youtube.com',
-        pathname: '/**',
-      },
     ],
   },
 };
 
 export default nextConfig;
-
